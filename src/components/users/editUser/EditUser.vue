@@ -36,8 +36,8 @@
         <el-form-item label="邮箱" prop="email">
           <el-input type="email" v-model="user.email" placeholder="请输入邮箱"></el-input>
         </el-form-item>
-        <el-form-item label="地址" prop="email">
-          <el-input type="email" v-model="user.address" placeholder="请输入地址"></el-input>
+        <el-form-item label="地址">
+          <el-input v-model="user.address" placeholder="请输入地址"></el-input>
         </el-form-item>
         <el-form-item label="性别" prop="sex">
           <el-radio-group v-model="user.sex">
